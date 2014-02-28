@@ -1,11 +1,7 @@
 .header {
 	position: fixed;
 	width: 100%;
-	background: #222;
 	z-index: 10;
-}
-.header .navbar-brand {
-	font-weight: 900;
 }
 .header .navbar {
 	margin: 0;
@@ -15,7 +11,6 @@
 	width: 100%;
 	min-height: 800px;
 	padding: 50px 0;
-	border-bottom: 10px solid #fff;
 }
 .page-section h1 {
 	font-size: 4em;
@@ -27,7 +22,6 @@
 .page-section h2 {
 	font-size: 3em;
 	font-weight: 900;
-	color: #fff;
 	margin: 0 0 30px;
 	text-shadow: 2px 2px 2px #000;
 }
@@ -40,33 +34,10 @@
 	font-size: 1.8em;
 }
 .page-section p.caption {
-	color: #fff;
 	padding: 20px;
-	background: url(images/trans_black_25.png);
 	text-shadow: 1px 1px 1px #000;
 }
-.page-section#africa {
-	background: url(images/africa.jpg) bottom center no-repeat;
-}
-.page-section#antarctica {
-	background: url(images/antarctica.jpg) bottom center no-repeat;
-}
-.page-section#asia {
-	background: url(images/asia.jpg) top center no-repeat;
-}
-.page-section#australia {
-	background: url(images/australia.jpg) top center no-repeat;
-}
-.page-section#europe {
-	background: url(images/europe.jpg) top center no-repeat;
-}
-.page-section#north-america {
-	background: url(images/north-america.jpg) top center no-repeat;
-}
-.page-section#south-america {
-	background: url(images/south-america.jpg) top center no-repeat;
-}
- 
+
 @media (min-width: 768px) {
 	.header .navbar-brand {
 		padding-left: 0;
